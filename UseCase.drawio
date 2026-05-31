@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" pages="2">
+<mxfile host="app.diagrams.net" pages="3">
   <diagram name="UseCaseLevel1" id="R5SArAZ-sp13xk5E453y">
-    <mxGraphModel dx="1084" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -338,6 +338,98 @@
             <mxPoint x="860" y="1660" as="sourcePoint" />
             <mxPoint x="950" y="1550" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GyQeJO6hl7p-9kbhmS7M" name="usecase lv2 thanhvien">
+    <mxGraphModel dx="1460" dy="1906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" value="Thành viên" vertex="1">
+          <mxGeometry height="100" width="50" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_register" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng ký" vertex="1">
+          <mxGeometry height="60" width="140" x="290" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_login" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng nhập" vertex="1">
+          <mxGeometry height="60" width="140" x="320" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_post" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Đăng bài" vertex="1">
+          <mxGeometry height="60" width="140" x="320" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_notify" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Xem thông báo" vertex="1">
+          <mxGeometry height="60" width="180" x="320" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_info" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Nhập thông tin" vertex="1">
+          <mxGeometry height="60" width="170" x="650" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_validate" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Kiểm tra thông tin" vertex="1">
+          <mxGeometry height="60" width="170" x="657" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_create" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tạo tài khoản" vertex="1">
+          <mxGeometry height="60" width="170" x="650" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_inputlogin" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Nhập tài khoản" vertex="1">
+          <mxGeometry height="60" width="170" x="670" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Xác thực tài khoản" vertex="1">
+          <mxGeometry height="60" width="170" x="657" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_write" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Soạn thảo bài viết" vertex="1">
+          <mxGeometry height="60" width="180" x="790" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_upload" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Tải ảnh lên" vertex="1">
+          <mxGeometry height="60" width="180" x="790" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_save" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Lưu bài viết" vertex="1">
+          <mxGeometry height="60" width="180" x="690" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="uc_detailnotify" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Xem chi tiết thông báo" vertex="1">
+          <mxGeometry height="60" width="220" x="670" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="actor" target="uc_register">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="actor" target="uc_login">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="actor" target="uc_post">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="actor" target="uc_notify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" edge="1" parent="1" source="uc_register" style="dashed=1;endArrow=open;" target="uc_info" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" edge="1" parent="1" source="uc_register" style="dashed=1;endArrow=open;" target="uc_validate" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" edge="1" parent="1" source="uc_register" style="dashed=1;endArrow=open;" target="uc_create" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i4" edge="1" parent="1" source="uc_login" style="dashed=1;endArrow=open;" target="uc_inputlogin" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i5" edge="1" parent="1" source="uc_login" style="dashed=1;endArrow=open;" target="uc_auth" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i6" edge="1" parent="1" source="uc_post" style="dashed=1;endArrow=open;" target="uc_write" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i7" edge="1" parent="1" source="uc_post" style="dashed=1;endArrow=open;" target="uc_upload" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i8" edge="1" parent="1" source="uc_post" style="dashed=1;endArrow=open;" target="uc_save" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="uc_detailnotify" style="dashed=1;endArrow=open;" target="uc_notify" value="&lt;&lt;extend&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G4jS8mM4TshF-VcKEbw7-3" parent="1" style="shape=swimlane;whiteSpace=wrap;html=1;startSize=30;bg opacity=0;strokeWidth=2;fontSize=14;fontStyle=1;align=center;" value="Hệ thống Diễn đàn - Quản lý bài viết" vertex="1">
+          <mxGeometry height="690" width="770" x="230" y="-10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
