@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="3">
   <diagram name="UseCaseLevel1" id="R5SArAZ-sp13xk5E453y">
-    <mxGraphModel dx="1654" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1406" dy="2434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,6 +92,9 @@
         </mxCell>
         <mxCell id="C04jKtBo_vdliFKvRf8y-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=30;" value="IT Faculty Forum System" vertex="1">
           <mxGeometry height="30" width="420" x="375" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="89xbub1j4bfNiErm5dUX-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Họ và tên&lt;/th&gt;&lt;th&gt;Mức độ hoàn thành&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Trần Thế Kiệt&lt;/td&gt;&lt;td&gt;100%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Nguyễn Thùy Ngân&lt;/td&gt;&lt;td&gt;100%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Lê Mai Quỳnh&lt;/td&gt;&lt;td&gt;100%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Dương Khắc Tuấn&lt;/td&gt;&lt;td&gt;100%&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Ngô Thị Tường Vy&lt;/td&gt;&lt;td&gt;100%&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" vertex="1">
+          <mxGeometry height="140" width="260" x="70" y="-250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
